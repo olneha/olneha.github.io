@@ -6,9 +6,18 @@
 table, th, td {
   border: 1px solid black;
   border-collapse: collapse;
+  text-align: center;
   font-size: 1.2em
 }
-p {font-size: 1.5em}
+p {font-size: 1.5em;
+   text-align: center}
+h1 {text-align: center}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+}
 </style>
 </head>
 
@@ -24,12 +33,12 @@ p {font-size: 1.5em}
 <br>
 <p>See on suvaline tabel koduloomadega:<p>
   
-<table>
+<table class="center">
   <tr>
     <th>Kassid</th>
     <th>Koerad</th>
     <th>Hamstrid</th>
-  </tr>
+      </tr>
   <tr>
     <td>Munchkin</td>
     <td>Shiba</td>
@@ -40,15 +49,22 @@ p {font-size: 1.5em}
     <td>Beagle</td>
 	<td>Hiina hamster</td>
   </tr>
+  
 </table>
+
 <br>
+
 
 <hr>
 
-<p>Üldiselt puudub selle sisul mingisugune loogika!<p>
+<p>Üldiselt puudub selle veebilehe sisul mingisugune loogika!<p>
 <br>
 <p>Lõpetuseks on üks lahe kassipilt:</p>
-<img src="https://img.joomcdn.net/c417727099ca63b889b375f3134c342dc66fa726_original.jpeg" alt="Kassi pilt">
+<img src="https://img.joomcdn.net/c417727099ca63b889b375f3134c342dc66fa726_original.jpeg" alt="Kassi pilt"
+width="400" 
+height="350" /
+class="center">
+
 
 
 
